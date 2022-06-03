@@ -1,0 +1,25 @@
+{
+  "name": "code-examples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {    
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "react": "lerna run create-react-app",
+    "next": "lerna run nextjs",
+    "dev": "lerna run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarlosBolanos/code-examples.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CarlosBolanos/code-examples/issues"
+  },
+  "homepage": "https://github.com/CarlosBolanos/code-examples#readme",
+  "devDependencies": {
+    "lerna": "^5.0.0"
+  }
+}
