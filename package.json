@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {    
+  "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "react": "lerna run create-react-app",
     "next": "lerna run nextjs",
@@ -21,5 +21,8 @@
   "homepage": "https://github.com/CarlosBolanos/code-examples#readme",
   "devDependencies": {
     "lerna": "^5.0.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
   }
 }
